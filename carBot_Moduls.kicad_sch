@@ -2636,6 +2636,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -3627,6 +3885,10 @@
 		(color 0 0 0 0)
 		(uuid "e2e4a688-82ba-4c03-b19d-b1c13191fa8b")
 	)
+	(no_connect
+		(at 45.72 74.93)
+		(uuid "37fb34ac-7c22-4199-b1e5-c0baa098d761")
+	)
 	(wire
 		(pts
 			(xy 230.505 60.325) (xy 234.315 60.325)
@@ -3759,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.505 151.13) (xy 233.68 151.13)
+			(xy 231.14 135.89) (xy 234.315 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4379,7 +4641,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.505 153.67) (xy 233.68 153.67)
+			(xy 231.14 138.43) (xy 234.315 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4389,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.505 148.59) (xy 233.68 148.59)
+			(xy 231.14 133.35) (xy 234.315 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4718,7 +4980,7 @@
 		(uuid "4224a7c9-9b27-401d-af20-5d381ce7091e")
 	)
 	(label "IR_DATA"
-		(at 230.505 153.67 180)
+		(at 231.14 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4878,7 +5140,7 @@
 		(uuid "6d541aa0-055b-4daa-8717-4870c71c9593")
 	)
 	(label "GND"
-		(at 230.505 151.13 180)
+		(at 231.14 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4938,7 +5200,7 @@
 		(uuid "8bfaf8ef-537d-45af-b093-ba687126499e")
 	)
 	(label "OLED_SCL"
-		(at 233.68 136.525 180)
+		(at 234.315 121.285 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5038,7 +5300,7 @@
 		(uuid "a4d9816a-c6ab-4494-8cb2-8c3703aad0b8")
 	)
 	(label "3.3V"
-		(at 233.68 133.985 180)
+		(at 234.315 118.745 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5148,7 +5410,7 @@
 		(uuid "d2f5edc4-4408-48e1-a6e6-109464a12e4a")
 	)
 	(label "GND"
-		(at 233.68 131.445 180)
+		(at 234.315 116.205 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5187,18 +5449,8 @@
 		)
 		(uuid "d65aea5e-5bfb-4e25-9870-d47fe90f23a2")
 	)
-	(label "DIN"
-		(at 28.575 73.025 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d764e00a-caf9-4d04-b9f6-8592f30026b8")
-	)
 	(label "3.3V"
-		(at 230.505 148.59 180)
+		(at 231.14 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5208,7 +5460,7 @@
 		(uuid "de10a6a2-7a20-493c-9d09-7527a739d08c")
 	)
 	(label "OLED_SDA"
-		(at 233.68 139.065 180)
+		(at 234.315 123.825 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5484,6 +5736,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 191.135 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c667176-0667-4f86-b61b-ecdd2807e26d")
+		(property "Reference" "J12"
+			(at 194.31 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 194.31 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CarBotLibrary:TP4056_TypeC_Module"
+			(at 191.135 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.135 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 191.135 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "74d63974-4e9d-4c0f-9e06-f8b7c493c83c")
+		)
+		(pin "2"
+			(uuid "8d4c6017-d6d8-4e7d-8a73-2403e0b803c4")
+		)
+		(pin "1"
+			(uuid "6a352757-ca9f-4cba-9586-870c266fe589")
+		)
+		(pin "3"
+			(uuid "c3f53b77-e78e-4790-911a-8bfbab0d04cc")
+		)
+		(pin "5"
+			(uuid "be3a573a-f260-4410-8319-132d2f8eef71")
+		)
+		(pin "6"
+			(uuid "67c072d8-cc85-41af-ac16-afb825730a67")
+		)
+		(instances
+			(project ""
+				(path "/df05b431-47a2-405b-9491-3f7c618e89eb"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.145 102.87 90)
 		(unit 1)
@@ -5643,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:MotDriver"
 			(at 154.305 44.45 0)
 			(effects
 				(font
@@ -5741,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:ESP32-38pins"
 			(at 62.23 29.845 0)
 			(effects
 				(font
@@ -5966,7 +6300,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 238.76 151.13 0)
+		(at 239.395 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5975,7 +6309,7 @@
 		(fields_autoplaced yes)
 		(uuid "5260d037-4d3c-47c3-a6e6-b917caa32ac2")
 		(property "Reference" "J10"
-			(at 241.935 149.8599 0)
+			(at 242.57 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6318,7 @@
 			)
 		)
 		(property "Value" "IR_sensor"
-			(at 241.935 152.3999 0)
+			(at 242.57 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +6327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 151.13 0)
+			(at 239.395 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 151.13 0)
+			(at 239.395 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6345,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 151.13 0)
+			(at 239.395 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6373,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 238.76 133.985 0)
+		(at 239.395 118.745 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6048,7 +6382,7 @@
 		(fields_autoplaced yes)
 		(uuid "69c8fe46-289b-4397-890b-22d673ff0cc9")
 		(property "Reference" "J9"
-			(at 241.3 133.9849 0)
+			(at 241.935 118.7449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6391,7 @@
 			)
 		)
 		(property "Value" "OLED"
-			(at 241.3 136.5249 0)
+			(at 241.935 121.2849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 133.985 0)
+			(at 239.395 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +6409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 133.985 0)
+			(at 239.395 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6418,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 133.985 0)
+			(at 239.395 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:BMS"
 			(at 213.36 17.145 0)
 			(effects
 				(font
@@ -6863,9 +7197,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:Buck"
 			(at 172.72 18.415 0)
 			(effects
 				(font
