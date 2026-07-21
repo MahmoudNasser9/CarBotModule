@@ -425,6 +425,58 @@
 		(layer "F.Fab")
 		(uuid "1c602a26-6c3d-4a58-9c7d-79981063f052")
 	)
+	(fp_text user "GND"
+		(at 7.5438 47.752 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06564989-556e-4eb2-a356-3e1075bbba1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VIN"
+		(at -10.16 50.3682 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "385d4295-6dfa-4a27-99a2-007cb5cef8aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -10.3124 47.7012 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79ae6e98-57e8-430e-85e6-ccfe948dc06f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3.3V"
+		(at 7.4168 50.2412 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bcc91ca9-1b2d-41e7-a6dc-d0456dd67b8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${Value}"
 		(at 0 4 0)
 		(unlocked yes)
