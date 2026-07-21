@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
 		(start -10.4144 17.2838)
 		(end -9.0344 17.2838)
@@ -697,7 +697,7 @@
 		(remove_unused_layers no)
 		(uuid "c6c3b3c7-edfd-4344-8db4-8bc710b7f345")
 	)
-	(pad "IN+" thru_hole circle
+	(pad "IN+2" thru_hole circle
 		(at 9.9742 10.2042)
 		(size 1.7 1.7)
 		(drill 1)
@@ -713,7 +713,7 @@
 		(remove_unused_layers no)
 		(uuid "b203a3c0-69fa-4076-a49f-c37f5ad29373")
 	)
-	(pad "IN-" thru_hole circle
+	(pad "IN-2" thru_hole circle
 		(at 9.9656 21.2038)
 		(size 1.7 1.7)
 		(drill 1)
@@ -729,7 +729,7 @@
 		(remove_unused_layers no)
 		(uuid "0bbf0a80-d972-4d4a-80e3-bc3c205090ee")
 	)
-	(pad "out+" thru_hole circle
+	(pad "out+2" thru_hole circle
 		(at -9.0258 10.2042)
 		(size 1.7 1.7)
 		(drill 1)
@@ -745,7 +745,7 @@
 		(remove_unused_layers no)
 		(uuid "e6a564f6-d89f-4e23-a01b-7863db4380e3")
 	)
-	(pad "out-" thru_hole circle
+	(pad "out-2" thru_hole circle
 		(at -9.0344 21.2038)
 		(size 1.7 1.7)
 		(drill 1)
