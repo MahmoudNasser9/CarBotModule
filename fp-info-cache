@@ -1,4 +1,4 @@
-25399184270976713
+25404538432774151
 ACC_Library
 DIP762W50P254L1018H450Q8
 <b>Dual In Line Package</b>
@@ -6670,6 +6670,27 @@ BMS
 0
 5
 5
+CarBotLibrary
+BotLogo
+
+
+0
+0
+0
+CarBotLibrary
+BotLogo_Big
+
+
+0
+0
+0
+CarBotLibrary
+BotLogo_VBig
+
+
+0
+0
+0
 CarBotLibrary
 Buck
 
