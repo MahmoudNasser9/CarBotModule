@@ -4305,6 +4305,10 @@
 		(uuid "2a4cf92c-3549-4b6e-b392-f11281199628")
 	)
 	(no_connect
+		(at 53.34 34.925)
+		(uuid "2d48ff8a-ca37-423c-9ae4-414ab98cebcb")
+	)
+	(no_connect
 		(at 53.34 27.305)
 		(uuid "856aa8e2-4a2c-49aa-8bbb-b5423ad9df7b")
 	)
@@ -5797,12 +5801,12 @@
 		(uuid "37950382-a182-4939-a118-4ca945fa55be")
 	)
 	(label "Buzzer_EN"
-		(at 53.34 34.925 180)
+		(at 95.885 52.705 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "384b888f-b4de-4d77-b6eb-e47cc7d5a62e")
 	)
@@ -5897,16 +5901,6 @@
 			(justify right bottom)
 		)
 		(uuid "46256fbb-220b-4a2f-b904-69c1914a9683")
-	)
-	(label "D2"
-		(at 95.885 52.705 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46b7a666-756c-45a6-b09f-601268987c99")
 	)
 	(label "3.3V"
 		(at 60.96 144.145 180)
