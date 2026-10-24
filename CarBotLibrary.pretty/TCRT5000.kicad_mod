@@ -288,9 +288,9 @@
 		(uuid "d123be07-5555-4c08-9bdd-46fbe32f1998")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/CarBot_ModuleV2/TCRT5000/TCRT5000.step"
+	(model "E:/PCB/AlphaBot/carBot_Moduls/CarBot_ModuleV2/TCRT5000/TCRT5000.step"
 		(offset
-			(xyz -0.8 0 -0.5)
+			(xyz -0.9 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

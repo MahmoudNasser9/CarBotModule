@@ -4701,6 +4701,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5491,6 +5574,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 13.97 122.555)
@@ -5782,6 +5966,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f214226-56c3-4d84-b978-4a682a044098")
+	)
+	(junction
+		(at 201.93 111.125)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f4833e7-8f65-47c6-98ca-09e1e10d6712")
 	)
 	(junction
 		(at 30.48 95.885)
@@ -6187,7 +6377,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 111.125) (xy 203.835 111.125)
+			(xy 200.66 111.125) (xy 201.93 111.125)
 		)
 		(stroke
 			(width 0)
@@ -6627,17 +6817,17 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 119.38) (xy 221.615 121.285)
+			(xy 201.93 104.775) (xy 201.93 111.125)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "633b04c8-7907-49ae-bfaf-b158153c569b")
+		(uuid "628d5155-b73b-4a04-8573-c4b61504bba1")
 	)
 	(wire
 		(pts
-			(xy 221.615 114.3) (xy 221.615 111.125)
+			(xy 221.615 111.125) (xy 221.615 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7107,6 +7297,16 @@
 	)
 	(wire
 		(pts
+			(xy 221.615 120.65) (xy 221.615 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ab4e22-3ceb-4d86-8a50-5163965dc443")
+	)
+	(wire
+		(pts
 			(xy 262.89 117.475) (xy 266.065 117.475)
 		)
 		(stroke
@@ -7137,7 +7337,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 114.935) (xy 200.66 111.125)
+			(xy 200.66 111.125) (xy 200.66 112.395)
 		)
 		(stroke
 			(width 0)
@@ -7314,6 +7514,16 @@
 			(type default)
 		)
 		(uuid "a935866d-d323-4d73-bc13-a1da8a4a3c9e")
+	)
+	(wire
+		(pts
+			(xy 201.93 111.125) (xy 203.835 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a976159c-e5ce-4abb-a1bb-bb4c2f724fd1")
 	)
 	(wire
 		(pts
@@ -7507,7 +7717,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.455 124.46) (xy 211.455 121.285)
+			(xy 211.455 121.285) (xy 211.455 125.095)
 		)
 		(stroke
 			(width 0)
@@ -7534,16 +7744,6 @@
 			(type default)
 		)
 		(uuid "cb7a91dc-75f3-45d9-913a-dfbe70f6d43c")
-	)
-	(wire
-		(pts
-			(xy 200.66 120.015) (xy 200.66 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc64f609-101b-45c2-9c06-75c1baffdcc3")
 	)
 	(wire
 		(pts
@@ -7947,6 +8147,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 120.015) (xy 200.66 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffaac810-3dfb-4a9c-9b8c-83bdf55bdf44")
+	)
+	(wire
+		(pts
 			(xy 123.19 58.42) (xy 123.19 55.245)
 		)
 		(stroke
@@ -8091,7 +8301,7 @@
 		(uuid "1226b8f7-e2a1-42cd-b6e1-15d47de1ea11")
 	)
 	(label "EN_M_A2"
-		(at 28.575 40.005 180)
+		(at 28.575 42.545 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8777,7 +8987,7 @@
 		(uuid "9b348168-d3c6-4d5b-ada0-6b44486bd3a9")
 	)
 	(label "EN_M_A1"
-		(at 28.575 37.465 180)
+		(at 28.575 45.085 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8840,7 +9050,7 @@
 		(uuid "a69cb252-f320-404a-ab59-25b6aa5516be")
 	)
 	(label "EN_M_B1"
-		(at 28.575 42.545 180)
+		(at 28.575 40.005 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8967,7 +9177,7 @@
 		(uuid "ba77b487-d7b2-4b6b-95a4-511285e81ca3")
 	)
 	(label "EN_M_B2"
-		(at 28.575 45.085 180)
+		(at 28.575 37.465 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9165,7 +9375,7 @@
 		(uuid "df8e692c-ef9f-409b-a43f-b830e2bfb0ac")
 	)
 	(label "GND"
-		(at 211.455 124.46 0)
+		(at 211.455 125.095 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9357,7 +9567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 271.145 93.98 0)
 			(effects
 				(font
@@ -9473,6 +9683,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 211.455 125.095 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "077a0b23-9fb8-4af0-9126-05e15ca21100")
+		(property "Reference" "#FLG02"
+			(at 211.455 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 217.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.455 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 211.455 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 211.455 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9a55161-a84a-442c-b7d0-cc405d81814f")
+		)
+		(instances
+			(project "CarBot_ModuleV2"
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 147.955 114.3 90)
 		(unit 1)
@@ -9567,7 +9842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 158.75 121.285 0)
 			(effects
 				(font
@@ -9610,8 +9885,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 200.66 117.475 0)
+		(lib_id "Device:C_Polarized")
+		(at 200.66 116.205 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9619,8 +9894,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bffea63-af73-4813-b60a-6a3ff39ff536")
-		(property "Reference" "C2"
-			(at 197.485 116.2112 0)
+		(property "Reference" "C4"
+			(at 197.485 114.9412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9904,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 197.485 118.7512 0)
+			(at 197.485 117.4812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,8 +9912,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.66 117.475 0)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 199.6948 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 117.475 0)
+			(at 200.66 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,8 +9930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 200.66 117.475 0)
+		(property "Description" "Polarized capacitor"
+			(at 200.66 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9948,71 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "C2")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 155.575 147.955 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "100cd751-f433-408d-8a15-baed703a556e")
+		(property "Reference" "H2"
+			(at 158.115 146.6849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.115 149.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 155.575 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 155.575 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 155.575 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CarBot_ModuleV2"
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9688,7 +10027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1024c740-c003-4e0c-9e9d-fcb2c6fd17a1")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 245.745 91.44 0)
 			(effects
 				(font
@@ -9740,7 +10079,7 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9774,7 +10113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "CarBotLibrary:Pluggable Terminal Block 5.08-2P Right Angle"
 			(at 271.78 66.04 0)
 			(effects
 				(font
@@ -9961,7 +10300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2db84cdb-8782-4098-bc64-bd96921aa9a7")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 86.36 25.7809 0)
 			(effects
 				(font
@@ -9979,7 +10318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm"
 			(at 83.5152 31.75 0)
 			(effects
 				(font
@@ -10015,7 +10354,7 @@
 		(instances
 			(project ""
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10048,7 +10387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 267.335 148.59 0)
 			(effects
 				(font
@@ -10124,7 +10463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:Passive_Buzzer"
 			(at 139.065 59.055 90)
 			(effects
 				(font
@@ -10167,6 +10506,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 201.93 104.775 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a945d99-1815-4e79-a9e2-74b48a7a7471")
+		(property "Reference" "#FLG01"
+			(at 201.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 196.215 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 201.93 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20266325-494f-483a-b51c-e0636f8d1feb")
+		)
+		(instances
+			(project ""
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 193.04 73.66 0)
 		(mirror y)
@@ -10195,7 +10599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 187.96 75.565 0)
 			(effects
 				(font
@@ -10253,7 +10657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45974650-4484-4779-b81f-bfe89502f562")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 198.12 19.685 0)
 			(effects
 				(font
@@ -10269,7 +10673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 200.025 36.195 0)
 			(effects
 				(font
@@ -10317,7 +10721,7 @@
 		(instances
 			(project ""
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -10385,6 +10789,70 @@
 			(project ""
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46f4ff60-c287-4437-8bd7-6c24c8a506b0")
+		(property "Reference" "H1"
+			(at 158.75 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.75 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -10550,7 +11018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:Switch SPDT 3PIN 3mm Pin spacing"
 			(at 216.535 62.23 0)
 			(effects
 				(font
@@ -10971,7 +11439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:Buck_farce"
 			(at 159.385 67.945 0)
 			(effects
 				(font
@@ -11249,7 +11717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "CarBotLibrary:Pluggable Terminal Block 5.08-2P Right Angle"
 			(at 271.78 58.42 0)
 			(effects
 				(font
@@ -11300,7 +11768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6543944f-779e-4fd5-9d62-ad4d1180bc0d")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 259.715 77.47 90)
 			(effects
 				(font
@@ -11352,7 +11820,7 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11386,7 +11854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 211.455 46.99 0)
 			(effects
 				(font
@@ -11455,7 +11923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 271.145 112.395 0)
 			(effects
 				(font
@@ -11540,7 +12008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 174.625 92.075 0)
 			(effects
 				(font
@@ -11600,7 +12068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89746600-e499-4886-b7be-33dbb22a4266")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 226.695 144.145 0)
 			(effects
 				(font
@@ -11652,7 +12120,7 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11735,7 +12203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8db05a33-9819-4a5d-b450-df80eed406b3")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 169.545 25.4 0)
 			(effects
 				(font
@@ -11751,7 +12219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 168.91 40.64 0)
 			(effects
 				(font
@@ -11799,7 +12267,7 @@
 		(instances
 			(project ""
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11832,7 +12300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 94.615 156.845 0)
 			(effects
 				(font
@@ -11911,7 +12379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "CarBotLibrary:Pluggable Terminal Block 5.08-2P Right Angle"
 			(at 269.875 29.21 0)
 			(effects
 				(font
@@ -11954,7 +12422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C_Polarized")
 		(at 221.615 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11963,8 +12431,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15e27aa-0679-4f73-87cb-482f19b3abb2")
-		(property "Reference" "C4"
-			(at 224.155 115.5762 0)
+		(property "Reference" "C7"
+			(at 224.79 114.6809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,7 +12441,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 224.155 118.1162 0)
+			(at 224.79 117.2209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,8 +12449,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 221.615 116.84 0)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 222.5802 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Polarized capacitor"
 			(at 221.615 116.84 0)
 			(effects
 				(font
@@ -12017,7 +12485,7 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12050,7 +12518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 213.36 21.59 0)
 			(effects
 				(font
@@ -12093,6 +12561,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 155.575 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a49e3fe4-9711-4492-b68c-4186a87dee91")
+		(property "Reference" "H3"
+			(at 158.115 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.115 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 155.575 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 155.575 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 155.575 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CarBot_ModuleV2"
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 267.97 133.985 0)
 		(unit 1)
@@ -12119,7 +12651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 267.97 133.985 0)
 			(effects
 				(font
@@ -12264,7 +12796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 269.24 45.466 0)
 			(effects
 				(font
@@ -12523,7 +13055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf8db808-f217-4fdb-86f3-864677ed71f8")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 164.465 88.265 90)
 			(effects
 				(font
@@ -12575,7 +13107,7 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12609,7 +13141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "CarBotLibrary:Pluggable Terminal Block 5.08-2P Right Angle"
 			(at 269.875 20.32 0)
 			(effects
 				(font
@@ -12801,6 +13333,70 @@
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 85.725 175.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d950f442-ca9a-40a1-aa18-f8d939a7316e")
+		(property "Reference" "H5"
+			(at 88.265 174.6249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.265 177.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 85.725 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.725 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 85.725 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CarBot_ModuleV2"
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -13088,7 +13684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e370a514-38ee-49d3-9605-d8f4e4375b6a")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 167.005 110.49 90)
 			(effects
 				(font
@@ -13140,7 +13736,7 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13174,7 +13770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 135.255 84.836 0)
 			(effects
 				(font
@@ -13232,7 +13828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0145404-e4cb-47ae-8d75-f0d001433db9")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 211.455 104.14 0)
 			(effects
 				(font
@@ -13287,7 +13883,7 @@
 		(instances
 			(project ""
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -13374,7 +13970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f47c03fc-6869-469b-b80b-30162c59a889")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 246.38 116.205 0)
 			(effects
 				(font
@@ -13426,7 +14022,7 @@
 		(instances
 			(project "CarBot_ModuleV2"
 				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13458,7 +14054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:MotDriver"
 			(at 125.73 18.415 0)
 			(effects
 				(font
@@ -13531,6 +14127,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 155.575 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f97f2df7-de11-4156-afd7-8e5426a9b415")
+		(property "Reference" "H4"
+			(at 158.115 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.115 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 155.575 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 155.575 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 155.575 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CarBot_ModuleV2"
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 85.725 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa8a5cbb-b5a9-4df2-9848-3522cc35d86c")
+		(property "Reference" "H6"
+			(at 88.265 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.265 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 85.725 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.725 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 85.725 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CarBot_ModuleV2"
+				(path "/08f1a2f0-1b00-41d5-af3a-e23d68bfa28e"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CarBot:ESP32-30PINS")
 		(at 46.355 22.86 0)
 		(unit 1)
@@ -13556,7 +14280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarBotLibrary:ESP32-30pins"
 			(at 46.355 22.86 0)
 			(effects
 				(font
@@ -13710,7 +14434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 19.685 90.805 0)
 			(effects
 				(font

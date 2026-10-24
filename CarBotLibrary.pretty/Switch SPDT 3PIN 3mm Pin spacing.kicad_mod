@@ -1,0 +1,200 @@
+(footprint "Switch SPDT 3PIN 3mm Pin spacing"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6744fc4f-cae3-4797-b36a-6be2de08f067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Switch SPDT 3PIN 3mm Pin spacing"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9682bd45-1ed2-4ff0-8653-92e0c5f79802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd026d91-107f-4351-9446-f0ba275ca7dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "480dfe10-ee34-4156-a2ec-06c945e3b332")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.9342 8.6614)
+		(end -6.9342 9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70dcd0ca-eec0-4d9d-aef1-6a811d126c6d")
+	)
+	(fp_line
+		(start -6.9342 9.525)
+		(end 6.1722 9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17d38dba-c4e8-49a3-8627-7e3db1b8e54b")
+	)
+	(fp_line
+		(start -6.9088 3.937)
+		(end -6.9088 5.1308)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f121723f-2781-42cd-adbf-9fa6d74364a0")
+	)
+	(fp_line
+		(start 6.1722 9.525)
+		(end 6.1722 8.6106)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3c23f72-6dce-424a-8e08-321751251ff8")
+	)
+	(fp_line
+		(start 6.2484 3.937)
+		(end -6.9088 3.937)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "765e6444-f1aa-4328-b412-af082ec50956")
+	)
+	(fp_line
+		(start 6.2484 4.9784)
+		(end 6.2484 3.937)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1cd2d144-26dd-4573-bc92-0dd245dace09")
+	)
+	(fp_line
+		(start 0.3556 13.4874)
+		(end 0.3556 9.6012)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "fe10fd94-4cf4-47a2-85da-b6ba5d4a196f")
+	)
+	(fp_line
+		(start 3.7592 9.4996)
+		(end 3.7592 13.4874)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "94933b5e-8903-4f02-bbe0-d4ab941a395f")
+	)
+	(fp_line
+		(start 3.7592 13.4874)
+		(end 0.3556 13.4874)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "7635c370-2910-4f11-ba5d-e3c06eb66cb9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63bf53a4-6c84-43c0-8237-62061c94a595")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.3274 6.8072)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b388caa-9b06-4bf3-a910-65481964d9b9")
+	)
+	(pad "2" thru_hole circle
+		(at -0.3274 6.8072)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dca8982f-5e0d-4fd7-a1df-b74337407c7a")
+	)
+	(pad "3" thru_hole circle
+		(at 2.6726 6.8072)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45b10284-509c-490f-a393-64a3e660151f")
+	)
+	(pad "4" thru_hole oval
+		(at 6.1726 6.8072)
+		(size 2 3)
+		(drill oval 1 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa0e032d-8eb4-48be-9430-c1d238789ce7")
+	)
+	(pad "5" thru_hole oval
+		(at -6.8274 6.8072 90)
+		(size 3 2)
+		(drill oval 2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f649539-6e13-4888-9d6b-98ea4e7480e8")
+	)
+	(embedded_fonts no)
+)

@@ -160,4 +160,15 @@
 		(uuid "f7880226-238b-4794-836e-8186dc7d397d")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.step"
+		(offset
+			(xyz -3.4 -12 0)
+		)
+		(scale
+			(xyz 0.8 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

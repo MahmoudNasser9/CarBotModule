@@ -1,4 +1,4 @@
-25274357445473466
+25277943138376577
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6643,12 +6643,26 @@ Passive_Buzzer
 2
 2
 CarBotLibrary
+Pluggable Terminal Block 5.08-2P Right Angle
+
+
+0
+2
+2
+CarBotLibrary
 SOP65P640X120-8N
 
 
 0
 8
 8
+CarBotLibrary
+Switch SPDT 3PIN 3mm Pin spacing
+
+
+0
+5
+5
 CarBotLibrary
 TCRT5000
 
