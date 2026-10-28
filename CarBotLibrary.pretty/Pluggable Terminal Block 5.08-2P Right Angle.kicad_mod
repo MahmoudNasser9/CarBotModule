@@ -211,4 +211,15 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "D:/Blocks/CarBot_V2/CarBotModule/CarBot_ModuleV2/796638-2/796638-2.step"
+		(offset
+			(xyz 2.4 -10 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
