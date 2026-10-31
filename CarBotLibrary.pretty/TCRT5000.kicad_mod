@@ -299,4 +299,15 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "D:/Blocks/CarBot_V2/CarBotModule/CarBot_ModuleV2/TCRT5000/TCRT5000.step"
+		(offset
+			(xyz -1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
